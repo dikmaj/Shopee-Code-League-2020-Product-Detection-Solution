@@ -26,7 +26,7 @@ Main difference on these codes:
 - `models_type3.py`: Base code + Mixup or Cutmix Augmentation. Cross-entropy loss
 - `models_type4.py`: Multi input (image and text from OCR) architecture + Mixup or Cutmix image Augmentation. Cross-entropy loss.
 
-**Warning:** Results could be different **(undeterminstic)** since all code was ran in GPU with no seed initialization. \
+**Warning:** Results could be different **(undeterminstic)** since all code was ran in GPU with no seed initialization.
 
 `ocr_gen.py` can be used to generate OCR text data. These data also available publicly at [here](https://www.kaggle.com/ekojsalim/scl-product-detection-useful-data).
 
